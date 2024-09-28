@@ -1,15 +1,14 @@
-import './App.css'
-import { ApiCoffeeCarruselBasic } from './components/ApiCoffeeCarruselBasic'
+import "./App.css";
+//import { ApiCoffeCarruselBasic } from "./components/ApiCoffeCarruselBasic";
+//import { CatGalleryFetch } from "./components/CatGalleryFetch";
+import { Futurama } from "./components/Futurama";
 
 function App() {
-
-
   return (
     <div>
-      <ApiCoffeeCarruselBasic />
+      <Futurama />
     </div>
-  )
+  );
 }
 
-export default App
-
+export default App;

@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -6,7 +7,9 @@ body, html {
 }
 
 .carousel-item img {
-  height: calc(100vh - 80px); /* Ajusta el 80px al tamaño de margen inferior que desees */
+  height: calc(
+    100vh - 80px
+  ); /* Ajusta el 80px al tamaño de margen inferior que desees */
   object-fit: cover;
 }
 
@@ -14,6 +17,8 @@ body, html {
   height: 100%;
   display: flex;
   flex-direction: column;
+  margin:  100px 0;
+ 
 }
 
 .carousel-container .carousel {
@@ -21,33 +26,10 @@ body, html {
 }
 
 .carousel-caption {
-  background-color: rgba(139, 69, 19, 0.7); /* Fondo café con transparencia */
+ /* background-color: rgba(139, 69, 19, 0.7); /* Fondo café con transparencia */
+  background-color: rgba(15, 12, 104, 0.7); /* Fondo café con transparencia */
   padding: 10px;
-  border-radius: 5px;
-}
+ /* border-radius: 5px;*/
+  border-radius: 15px;
 
-/* Clase personalizada para definir el tamaño de la card */
-.custom-card-size {
-  width: 500px;
-  height: 600px;
-  overflow: hidden; /* Evita el desbordamiento del contenido */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-/* Clase personalizada para asegurarse de que la imagen se ajuste a la card */
-.custom-img-size {
-  width: 100%;
-  height: 100%;
-  object-fit: contain; /* Asegura que la imagen se ajuste dentro del contenedor sin recortarse ni distorsionarse */
-}
-
-/* Asegura que el texto quede dentro del 30% restante del espacio */
-.card-body {
-  height: 30%; /* Ocupa el 30% restante para el texto */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  overflow: hidden; /* Previene que el texto se desborde */
 }
